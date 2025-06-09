@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact-style.css" />
+</head>
+<body>
+  <main>
+    <div class="image-container">
+      <img src="img/contact.png" alt="Contact Icon" />
+    </div>
+    <form>
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com" required />
+      </div>
+      <div class="input-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your message..." required></textarea>
+      </div>
+      <input type="submit" value="Send Message" />
+    </form>
+  </main>
+</body>
+</html>
