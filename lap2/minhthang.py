@@ -48,7 +48,7 @@ st.markdown("<h1 style='color: #e63946;'>🎮 Game Gear Store</h1>", unsafe_allo
 st.write("Play more, live more | Hotline: 0963.769.777")
 
 # --- BANNER ---
-st.image("https://mir-s3-cdn-cf.behance.net/projects/404/51a52b114495173.Y3JvcCwyNTU2LDIwMDAsMjIxLDA.png", use_column_width=True)
+st.image("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ed229654258085.5953dd548f221.jpg", use_column_width=True)
 
 # --- CATEGORIES ---
 st.subheader("Danh mục nổi bật")
