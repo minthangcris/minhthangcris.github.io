@@ -64,7 +64,7 @@ cols_prod = st.columns(2)
 for idx, product in enumerate(products):
     with cols_prod[idx % 2]:
         st.markdown(f"<div class='product-card'>", unsafe_allow_html=True)
-        st.image(product["https://yt3.googleusercontent.com/ytc/AIdro_neBpApczMb70QxbPqWlwNcTHQ9XSEd3S4llCHLrRkZMA=s900-c-k-c0x00ffffff-no-rj"], width=150)
+        st.image(product["https://mir-s3-cdn-cf.behance.net/projects/404/51a52b114495173.Y3JvcCwyNTU2LDIwMDAsMjIxLDA.png"], width=150)
         st.write(f"**{product['name']}**")
         st.write(f"Giá: **{product['price']:,} VNĐ**")
         if st.button(f"🛒 Thêm vào giỏ - {product['name']}"):
