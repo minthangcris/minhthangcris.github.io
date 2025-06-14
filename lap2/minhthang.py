@@ -34,7 +34,7 @@ st.markdown("""
 
 # --- DATA ---
 products = [
-    {"name": "Nintendo Switch 2", "price": 14000000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329957.png"},
+    {"name": "Nintendo Switch 2", "price": 14000000, "image": "https://eibrx5yeyug.exactdn.com/wp-content/uploads/2025/06/Nintendo_Switch2_nueva_era_Gaming.jpg"},
     {"name": "PS5 Controller", "price": 2000000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329956.png"},
     {"name": "Xbox Series X", "price": 15000000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329959.png"},
     {"name": "8BitDo Controller", "price": 900000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329955.png"},
