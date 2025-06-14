@@ -35,9 +35,9 @@ st.markdown("""
 # --- DATA ---
 products = [
     {"name": "Nintendo Switch 2", "price": 14000000, "image": "https://eibrx5yeyug.exactdn.com/wp-content/uploads/2025/06/Nintendo_Switch2_nueva_era_Gaming.jpg"},
-    {"name": "PS5 Controller", "price": 2000000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329956.png"},
-    {"name": "Xbox Series X", "price": 15000000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329959.png"},
-    {"name": "8BitDo Controller", "price": 900000, "image": "https://cdn-icons-png.flaticon.com/512/7329/7329955.png"},
+    {"name": "PS5 Controller", "price": 2000000, "image": "https://th.bing.com/th/id/OIP._kEU8aKGHxqllHnADWlAAQHaEK?rs=1&pid=ImgDetMain&cb=idpwebpc1"},
+    {"name": "Xbox Series X", "price": 15000000, "image": "https://th.bing.com/th/id/OIP.xdDxVtikwxvByq9WtwqlGwHaE8?rs=1&pid=ImgDetMain&cb=idpwebpc1"},
+    {"name": "8BitDo Controller", "price": 900000, "image": "https://cdn.mos.cms.futurecdn.net/cpKUSNQVseZeJvPUDeT3Di.jpeg"},
 ]
 
 if "cart" not in st.session_state:
@@ -64,7 +64,7 @@ cols_prod = st.columns(2)
 for idx, product in enumerate(products):
     with cols_prod[idx % 2]:
         st.markdown(f"<div class='product-card'>", unsafe_allow_html=True)
-        st.image(product["image"], width=150)
+        st.image(product["https://yt3.googleusercontent.com/ytc/AIdro_neBpApczMb70QxbPqWlwNcTHQ9XSEd3S4llCHLrRkZMA=s900-c-k-c0x00ffffff-no-rj"], width=150)
         st.write(f"**{product['name']}**")
         st.write(f"Giá: **{product['price']:,} VNĐ**")
         if st.button(f"🛒 Thêm vào giỏ - {product['name']}"):
