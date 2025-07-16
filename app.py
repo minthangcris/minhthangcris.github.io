@@ -19,7 +19,7 @@ df = load_data()
 
 # Sidebar: Bộ lọc dữ liệu
 st.sidebar.header("Filter Options")
-product_filter = st.sidebar.multiselect("Select Product ID", options=df['Product_ID'].unique(), default=df['Product_ID'].unique())
+product_filter = st.sidebar.multiselect("Select Product ID", options=df['abc_manufacturing_data.csv'].unique(), default=df['Product_ID'].unique())
 date_range = st.sidebar.date_input("Select Date Range", [df['Date'].min(), df['Date'].max()])
 date_range = [pd.to_datetime(d) for d in date_range]
 
